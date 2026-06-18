@@ -1,0 +1,99 @@
+{
+  "profile": {
+    "name": "Jether Haniel De Leon",
+    "title": "Full Stack Developer & System Engineer",
+    "tagline": "Building enterprise-grade applications from the database layer to the user's screen — 4 years of full-stack experience.",
+    "bio": "Versatile IT professional with 4 years of experience building and maintaining enterprise-grade applications across the full development stack. Proficient in JavaScript, C#, and SQL, with hands-on experience developing BI dashboards, data-driven reporting systems, RESTful/SOAP API integrations, and responsive web interfaces. I enjoy working across the stack — from optimizing SQL queries to crafting polished, mobile-first UIs.",
+    "location": "Silang, Cavite, Philippines",
+    "email": "jetherhaniel1@gmail.com",
+    "github": "https://github.com/Haniel023",
+    "linkedin": "https://www.linkedin.com/in/jetherdeleon/",
+    "twitter": "",
+    "availableForWork": true
+  },
+  "skills": [
+    {
+      "label": "Frontend",
+      "color": "violet",
+      "skills": ["JavaScript", "TypeScript", "React.js", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"]
+    },
+    {
+      "label": "Backend",
+      "color": "cyan",
+      "skills": ["Node.js", "C#/.NET", "Express.js", "REST API", "SOAP API", "Socket.io", "JWT Auth"]
+    },
+    {
+      "label": "Database & BI",
+      "color": "lime",
+      "skills": ["SQL Server", "Supabase", "PostgreSQL", "Stored Procedures", "BI Dashboards", "Data Reporting"]
+    },
+    {
+      "label": "Tools & DevOps",
+      "color": "orange",
+      "skills": ["Git", "Vite", "IIS", "PM2", "Vercel", "Power Automate", "Agile/Scrum"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Spendie",
+      "description": "A cross-platform shared budget tracker with spaces for group expenses, recurring transactions, net worth tracking, achievements, Google OAuth, and full PWA support.",
+      "tags": ["React Native", "Supabase", "PostgreSQL", "PWA", "Google OAuth"],
+      "github": "https://github.com/Haniel023/Spendie_v2",
+      "live": "https://spendieapp.vercel.app",
+      "featured": true,
+      "accent": "cyan"
+    },
+    {
+      "title": "Chikie",
+      "description": "A self-hosted encrypted real-time messaging platform for private team networks. Features AES-256-GCM message encryption, read receipts, push notifications, and presence tracking.",
+      "tags": ["React", "TypeScript", "Node.js", "Socket.io", "Oracle DB"],
+      "github": "https://github.com/Haniel023/Chikie_v2",
+      "live": "",
+      "featured": true,
+      "accent": "violet"
+    },
+    {
+      "title": "Plately",
+      "description": "A full-stack meal planning app with weekly recipe scheduling, ingredient cost tracking, and grocery expense management — built for individuals managing household meals.",
+      "tags": ["React", "Vite", "Supabase", "PostgreSQL"],
+      "github": "https://github.com/Haniel023/Plately",
+      "live": "",
+      "featured": true,
+      "accent": "lime"
+    },
+    {
+      "title": "Activity Planning",
+      "description": "An internal workflow tool that digitizes Excel-based activity management with RACI matrix assignment, multi-stage approval workflows, progress tracking, and Excel/PDF export.",
+      "tags": ["React", "TypeScript", "Express.js", "SQLite", "ExcelJS"],
+      "github": "https://github.com/Haniel023/Activity-Planning-v1",
+      "live": "",
+      "featured": false,
+      "accent": "orange"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer / System Engineer",
+      "company": "Denso Ten Solutions Philippines Corporation",
+      "period": "May 2022 – Present",
+      "description": "Developed and customized full-stack enterprise applications using JavaScript, C#, and web technologies — delivering end-to-end features from the database layer to user-facing dashboards, BI reports, and automation workflows.",
+      "highlights": [
+        "Built RESTful & SOAP API integrations",
+        "Created interactive BI dashboards",
+        "Optimized SQL with stored procedures",
+        "Implemented role-based access controls",
+        "Developed responsive mobile-first UIs"
+      ],
+      "current": true,
+      "type": "work"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "school": "Adventist University of the Philippines",
+      "period": "Aug 2018 – May 2022",
+      "type": "education"
+    }
+  ]
+}
