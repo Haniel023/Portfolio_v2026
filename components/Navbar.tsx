@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import type { ProfileData } from "@/lib/content";
+import JethDevLogo from "@/components/JethDevLogo";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -30,12 +31,8 @@ export default function Navbar({ profile }: NavbarProps) {
     >
       <div className="mx-auto max-w-6xl px-6 py-4">
         <nav className="flex items-center justify-between rounded-2xl border border-white/10 bg-zinc-900/80 px-6 py-3 backdrop-blur-xl">
-          <Link
-            href="/"
-            className="text-sm font-semibold tracking-tight text-white hover:opacity-80 transition-opacity"
-          >
-            <span className="gradient-text-violet">Jeth</span>
-            <span className="text-zinc-400">.Dev</span>
+          <Link href="/" className="hover:opacity-80 transition-opacity">
+            <JethDevLogo size="sm" />
           </Link>
 
           <ul className="hidden md:flex items-center gap-1">

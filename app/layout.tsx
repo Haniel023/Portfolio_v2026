@@ -10,12 +10,16 @@ export async function generateMetadata(): Promise<Metadata> {
   const { profile } = getContent();
   return {
     title: {
-      default: `${profile.name} — ${profile.title}`,
-      template: `%s | ${profile.name}`,
+      default: `Jeth.Dev — ${profile.title}`,
+      template: `%s | Jeth.Dev`,
     },
     description: profile.tagline,
+    icons: {
+      icon: "/logo.svg",
+      shortcut: "/logo.svg",
+    },
     openGraph: {
-      title: `${profile.name} — ${profile.title}`,
+      title: `Jeth.Dev — ${profile.title}`,
       description: profile.tagline,
       type: "website",
     },

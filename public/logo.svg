@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <linearGradient id="jeth" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#6366F1"/>
+      <stop offset="50%"  stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="dev" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- "Jeth" -->
+  <text
+    x="0" y="62"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="64"
+    fill="url(#jeth)"
+  >Jeth</text>
+
+  <!-- "." dot in cyan -->
+  <text
+    x="160" y="62"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="64"
+    fill="#22D3EE"
+  >.</text>
+
+  <!-- "Dev" -->
+  <text
+    x="184" y="62"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="64"
+    fill="url(#dev)"
+  >Dev</text>
+</svg>
