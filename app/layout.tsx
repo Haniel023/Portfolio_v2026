@@ -14,10 +14,6 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s | Jeth.Dev`,
     },
     description: profile.tagline,
-    icons: {
-      icon: "/logo.svg",
-      shortcut: "/logo.svg",
-    },
     openGraph: {
       title: `Jeth.Dev — ${profile.title}`,
       description: profile.tagline,
